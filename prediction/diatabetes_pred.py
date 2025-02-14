@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn import svm
 from os import system
 
-ds = pd.read_csv('ML/tutorial/diabetes (2).csv')
+ds = pd.read_csv('ML/tutorial/diabetes.csv')
 
 x = ds.drop(columns='Outcome', axis=1)
 y = ds['Outcome']
